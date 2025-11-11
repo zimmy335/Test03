@@ -14,7 +14,7 @@ if __name__ == "__main__":
     parser.add_argument('--taw', type=int, default=1, help='the length of each time slot')
     parser.add_argument('--taw_q', type=float, default=0.2, help='virtual uv queue upper bound')
     parser.add_argument('--taw_h', type=float, default=0.2, help='virtual server queue upper bound')
-    parser.add_argument('--G', type=int, default=1000, help='number of episodes')
+    parser.add_argument('--G', type=int, default=100, help='number of episodes')
     parser.add_argument('--LB_Am', type=float, default=2.4, help='LB of the amount of arrival task')
     parser.add_argument('--UB_Am', type=float, default=3.6, help='UB of the amount of arrival task')
     parser.add_argument('--noise_power', type=int, default=-114, help='noise power')
